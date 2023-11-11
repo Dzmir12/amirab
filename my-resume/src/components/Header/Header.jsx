@@ -1,4 +1,4 @@
-import Button from "@mui/material-next/Button";
+
 import me from "./../../assets/me.jpg";
 import style from "./Header.module.css";
 import { useMediaQuery } from "react-responsive";
@@ -60,26 +60,22 @@ function Header() {
           </div>
 
           <div className={` ${isWeb2 ? style.headerButtonFixed :style.headerButton } `}>
-           <a href={CV} download>
-            <Button
-              color="primary"
-              size="large"
-              variant="filled"
-              style={{ width: "30%", background: "#9ebeff" }}
+           <a href={CV} download className={` ${isWeb2 ? style.afixed :'' } `} >
+            <button
+             className={style.btn}
+              style={{ width: "80%", background: "#9ebeff" }}
             >
               CV
-            </Button>
+            </button>
             </a>
 
-            <a href="#Contact">
-            <Button
-              color="primary"
-              size="large"
-              variant="text"
-              style={{ width: "30%" }}
+            <a href="#Contact"  className={` ${isWeb2 ? style.afixed :'' } `}>
+            <button
+               className={style.btn}
+              style={{ width: "80%" }}
             >
                Let's Talk
-            </Button>
+            </button>
             </a>
           </div>
         </div>

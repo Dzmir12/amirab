@@ -1,7 +1,6 @@
 import Skills from "./components/Skills/Skills";
 import Header from "./components/Header/Header";
 import AboutME from "./components/AboutMe/AboutMe";
-import LazyLoad from "react-lazyload";
 import "./App.css";
 import Contact from "./components/Contact/Contact";
 

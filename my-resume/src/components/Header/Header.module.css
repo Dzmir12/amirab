@@ -260,11 +260,32 @@
 
 .headerButton {
   margin-top: 3rem;
+  display: flex;
+  width: 74%;
+  gap: 20px;
 }
 
 .headerButtonFixed {
   margin-top: 3rem;
+justify-content: center;
+  margin-top: 3rem;
+  display: flex;
+  width: 100%;
+}
+
+a {
+  width: 80%;
+}
+
+.afixed {
+  width: 80%;
   text-align: center;
 }
 
+.btn {
+  padding: 20px;
+  border: none;
+  border-radius: 100px;
+  
+}
 
